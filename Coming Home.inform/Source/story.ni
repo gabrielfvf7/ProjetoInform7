@@ -37,11 +37,12 @@ Report sitting on a chair:
 	
 Section 1.3 Talking
 
+		
 Talking to is an action applying to one visible thing.
 Understand "talk to [someone]" or "converse with [someone]" as talking to.
 Check talking to: say "[The noun] doesn't reply."
 Instead of talking to Sophia:
-	Say "'Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!' you say.  'I know, dad, and i can help you, but it's not gonna be easy..' she replies." 
+	Say "'Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!' you say.[line break] 'I know, dad, and i can help you, but it's not gonna be easy.' she replies." 
 
 Section 1.4 Interactions
 
@@ -66,10 +67,12 @@ Section 2.1 The House
 
 Porch is a room.  
 Hall is room.  
-Sophia is a woman in the Hall. "Sophia, your daughter is standing in the middle of the hall." The description is "She is looking in a funny way to you, kind of suspect."
+Sophia is a woman in the Hall. "Sophia, your daughter is standing in the middle of the hall." The description is "She is looking in a funny way to, kind of suspect."
+Bob is a man. Bob is in the Small Bedroom. "Your son Bob, basically a baby, is in the room."
 
 Main door is a door. It is north of Porch and south of Hall. Main door is closed and locked.
 The matching key of the Main door is House key.
+The House key can be found. The house key is not found.
 
 [Ground floor]
 Living Room is a room. Living room is north of Hall.
@@ -82,11 +85,11 @@ Stairs is a staircase. It is above Hall and below Upper Hall.
 
 [Second floor]
 Upper Hall is a room.  
-Large Bedroom is a room. Large Bedroom is north of Upper Hall. "Your and your's wife bedroom.".
-Medium Bedroom is a room.  Medium Bedroom is east of Upper Hall.
-Small Bedroom is a room. Small Bedroom is west of Upper Hall.
-Bathroom is a room. Bathroom is south of Upper Hall.
-Inner Bathroom is a room. Inner Bathroom is west of Large Bedroom.
+Large Bedroom is a room. Large Bedroom is north of Upper Hall. "Your and your wife's bedroom.".
+Medium Bedroom is a room.  Medium Bedroom is east of Upper Hall. "Sophia's bedroom."
+Small Bedroom is a room. Small Bedroom is west of Upper Hall. "Your youngest son's bedroom.".
+Bathroom is a room. Bathroom is south of Upper Hall. "It's smelling bad."
+Inner Bathroom is a room. Inner Bathroom is west of Large Bedroom. "Your private bathroom.".
 
 [Underground]
 Basement is a room. "You see a bunch of old stuff and tools scattered around. [line break]There's a old drawer in a corner. Maybe you should investigate it."
@@ -102,6 +105,8 @@ Chapter 3 Things
 
 Player is in Porch.  
 
+First Note is a thing. First Note can be found. First Note is not found.
+
 Old Drawer is in Basement. It is fixed in place. The description of Old Drawer is "An old drawer that's barely used, just gathering dust.".
 There is a Safe Box. Safe Box is an openable container. Safe Box is closed and locked.
 
@@ -109,6 +114,21 @@ Guest's Bed is in Small Bedroom.
 There is a Drawer Handle. The description of Drawer Handle is "A metal handle. I wonder what it belongs to.".
 Understand "Handle" as Drawer Handle.
 
+Bookcase is a thing in Living Room. It is fixed in place. "The old bookcase is there too." The description of Bookcase is "A bookcase with a lot of books, making it quite heavy, being impossible to move."
+
+Broom is a thing in Living Room. "A broom is leaning on a wall.". The description of the Broom is "A broom used to clean the room ground. Or to reach things".
+
+Instead of looking under the Bookcase:
+	if player carries the First Note:
+		say "There's nothing more there.";
+	otherwise:
+		if the player carries the broom:
+			say "You use the broom to reach and get the note";
+			now the First Note is found;
+			now the player carries the First Note;
+		otherwise:
+			say "You see a note and try to get with your hands, but it's too far, you will need something to help you reach."
+	
 Instead of looking under the Guest's Bed when the Drawer Handle is off-stage:
 	say "There's an metal object below the bed. Looks like a handle";
 	move the Drawer Handle to the Small Bedroom.
@@ -130,9 +150,13 @@ Being Outside the House is a Scene.
 Being Outside the House begins when play begins.
 Being Outside the House ends when player is in  Hall.
 	
-Instead of looking under the Doormat the first time:
-	Say "You remembers that maybe your family left an extra key under the Doormat. You look under and see an extra key for your house and now you can take it";
-	Now the House Key is in the location.
+Instead of looking under the Doormat:
+	if the House Key is found:
+		Say "There's nothing else under there.";
+	otherwise:
+		Say "You remembers that maybe your family left an extra key under the Doormat. You look under and see an extra key for your house and you take it";
+		now the House Key is found;
+		now the player carries the House Key;
 
 Check opening the Main door:
 	unless player carries the House key:
