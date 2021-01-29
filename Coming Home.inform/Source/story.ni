@@ -41,14 +41,18 @@ Section 1.3 Talking
 Talking to is an action applying to one visible thing.
 Understand "talk to [someone]" or "converse with [someone]" as talking to.
 Check talking to: say "[The noun] doesn't reply."
-Instead of talking to Sophia:
-	Say "'Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!' you say.[line break] 'I know, dad, and i can help you, but it's not gonna be easy.' she replies." 
+
+Instead of talking to Sophia the first time:
+	Say "'Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!' you say.[line break] 'I know, dad, and i can help you, but it's not gonna be easy.' she replies then continues:[line break]'Before anything, i want you to make some tasks to me, the first one you will find in the Living Room'"; 
 	
 Instead of talking to Blond Joseph the first time:
 	say "He is screaming: 'Where is Any Mary?!?! Where she is???'"
 	
 Instead of talking to Blond Joseph:
-	say "You can't talk to him anymore, he is too angry with something, you need to calm him down."
+	if BlondJosephFed is true:
+		say "He don't want to talk, but at least he it's calm.";
+	otherwise:
+		say "You can't talk to him, he is too angry with something, you need to calm him down."
 
 Section 1.4 Interactions
 
@@ -57,8 +61,8 @@ Understand "sweep floor" as sweeping floor.
 Understand "sweep" as sweeping floor.
 
 Check an actor sweeping floor:
-	if the player is in the Small Bedroom:
-		if the player carries the Broom:
+	if the player carries the Broom:
+		if the player is in the Small Bedroom:
 			if BlondJosephFed is true:
 				if SmallBedroomIsCleaned is false:
 					say "You sweep the room's floor, now it's shining.";
@@ -68,13 +72,28 @@ Check an actor sweeping floor:
 			otherwise:
 				say "Blond Joseph is still screaming and it's disturbing you, if you dont calm down him, you will not be able to clean the floor";
 		otherwise:
-			say "You need something to clean, you can't clean with your bare hands";
+			if the player is in the Medium Bedroom:
+				if MediumBedroomIsCleaned is false:
+					say "You sweep the room's floor, now it's shining.";
+					now MediumBedroomIsCleaned is true;
+				otherwise:
+					say "The floor is already cleaned, don't need to do again.";
+			otherwise:
+				if the player is in the Large Bedroom:
+					if LargeBedroomIsCleaned is false:
+						say "You sweep the room's floor, now it's shining.";
+						now LargeBedroomIsCleaned is true;
+					otherwise:
+						say "The floor is already cleaned, don't need to do again.";
+				otherwise:
+					say "You don't have anything to clean here";
 	otherwise:
-		say "You don't have anything to clean here";
+		say "You need to have something to clean, you can't clean with your bare hands"
 		
 Instead of giving Bird food to Blond Joseph:
 	say "He eats and calm down, now you can clean the floor";
-	now Blond Joseph carries Bird food
+	now Blond Joseph carries Bird food;
+	now BlondJosephFed is true;
 
 Washing hands is an action applying to nothing.
 Understand "wash hands" as washing hands.
@@ -119,7 +138,7 @@ Check an actor investigating on a Old Drawer:
 		now Safe Box is in Basement.
 		
 Instead of giving Monica Gang's Tomato Flavored Noodles to Sophia:
-	say "Thanks, dad.";
+	say "Thanks, dad.[line break]Now, to your next task, i will need you to sweep the bedroom's floor and to clean the bathroom's.";
 	now Sophia carries Monica Gang's Tomato Flavored Noodles.
 
 Section 1.5 Variables
@@ -158,7 +177,7 @@ Stairs is a staircase. It is above Hall and below Upper Hall.
 Upper Hall is a room.  
 Large Bedroom is a room. Large Bedroom is north of Upper Hall. "Your and your wife's bedroom.".
 Medium Bedroom is a room.  Medium Bedroom is east of Upper Hall. "Sophia's bedroom."
-Small Bedroom is a room. Small Bedroom is west of Upper Hall. "Your youngest son's bedroom.".
+Small Bedroom is a room. Small Bedroom is west of Upper Hall. "Some bedroom used to store a lot of things.".
 Bathroom is a room. Bathroom is south of Upper Hall. "It's smelling bad."
 Inner Bathroom is a room. Inner Bathroom is west of Large Bedroom. "Your private bathroom.".
 
@@ -238,12 +257,7 @@ Instead of looking under the Doormat:
 
 Check opening the Main door:
 	unless player carries the House key:
-		Say "The door is closed and you don't remeber where your keys are." instead.
-
-
-
-After taking the House Key during Being Outside the House:
-	Say "This is the extra key for your house, now you can enter".
+		Say "The door is closed and you don't remember where your keys are." instead.
 
 Figure of InitialPicture is the file "house.jpg"
 	

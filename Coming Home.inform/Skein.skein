@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-288"/>
+  <activeNode nodeId="node-340"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Coming Home</command>
-    <result xml:space="preserve">The Guanabara Aniversary starts in hours, but your wife hid your car's key, because you are addicted to Guanabara sales. Now you are in the porch of your house thinking about what to do. Maybe first you want to enter in the house.&#x000A;&#x000A;The need for Guanabara&#x000A;An Interactive Fiction by Grupo Random&#x000A;Release 1 / Serial number 210128 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Doormat here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">The Guanabara Aniversary starts in hours, but your wife hid your car's key, because you are addicted to Guanabara sales. Now you are in the porch of your house thinking about what to do. Maybe first you want to enter in the house.&#x000A;&#x000A;The need for Guanabara&#x000A;An Interactive Fiction by Grupo Random&#x000A;Release 1 / Serial number 210129 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Doormat here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -15,11 +15,11 @@
       <child nodeId="node-30"/>
       <child nodeId="node-31"/>
       <child nodeId="node-32"/>
-      <child nodeId="node-38"/>
-      <child nodeId="node-81"/>
-      <child nodeId="node-87"/>
-      <child nodeId="node-94"/>
-      <child nodeId="node-100"/>
+      <child nodeId="node-54"/>
+      <child nodeId="node-259"/>
+      <child nodeId="node-265"/>
+      <child nodeId="node-272"/>
+      <child nodeId="node-278"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -280,7 +280,7 @@
     <children>
       <child nodeId="node-33"/>
       <child nodeId="node-36"/>
-      <child nodeId="node-167"/>
+      <child nodeId="node-38"/>
     </children>
   </item>
   <item nodeId="node-33">
@@ -322,184 +322,36 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-167">
+  <item nodeId="node-38">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">What do you want to unlock Main door with?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-168"/>
+      <child nodeId="node-39"/>
     </children>
   </item>
-  <item nodeId="node-168">
+  <item nodeId="node-39">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-169"/>
-    </children>
-  </item>
-  <item nodeId="node-169">
-    <command xml:space="preserve">look under doormat</command>
-    <result xml:space="preserve">You remembers that maybe your family left an extra key under the Doormat. You look under and see an extra key for your house and you take it&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-170"/>
-    </children>
-  </item>
-  <item nodeId="node-170">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-171"/>
-    </children>
-  </item>
-  <item nodeId="node-171">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-172"/>
-    </children>
-  </item>
-  <item nodeId="node-172">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-173"/>
-    </children>
-  </item>
-  <item nodeId="node-173">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-174"/>
-    </children>
-  </item>
-  <item nodeId="node-174">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Home Office&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-175"/>
-    </children>
-  </item>
-  <item nodeId="node-175">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-176"/>
-    </children>
-  </item>
-  <item nodeId="node-176">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-177"/>
-    </children>
-  </item>
-  <item nodeId="node-177">
-    <command xml:space="preserve">go westr</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-178"/>
-    </children>
-  </item>
-  <item nodeId="node-178">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-179"/>
-    </children>
-  </item>
-  <item nodeId="node-179">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-180"/>
-    </children>
-  </item>
-  <item nodeId="node-180">
-    <command xml:space="preserve">look noodles</command>
-    <result xml:space="preserve">Some Monica Gang's tomato flavored noodles made by you with love&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-181"/>
-    </children>
-  </item>
-  <item nodeId="node-181">
-    <command xml:space="preserve">take Monica Gang's Tomato Flavored Noodles</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-182"/>
-    </children>
-  </item>
-  <item nodeId="node-182">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  Monica Gang's Tomato Flavored Noodles&#x000A;  House key&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-38">
-    <command xml:space="preserve">look under doormat</command>
-    <result xml:space="preserve">You remembers that maybe your family left an extra key under the Doormat. You look under and see an extra key for your house and you take it&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-39"/>
-      <child nodeId="node-75"/>
-      <child nodeId="node-111"/>
-      <child nodeId="node-127"/>
-      <child nodeId="node-143"/>
-      <child nodeId="node-209"/>
-    </children>
-  </item>
-  <item nodeId="node-39">
-    <command xml:space="preserve">take key</command>
-    <result xml:space="preserve">This is the extra key for your house, now you can enter&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
       <child nodeId="node-40"/>
-      <child nodeId="node-53"/>
     </children>
   </item>
   <item nodeId="node-40">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under doormat</command>
+    <result xml:space="preserve">You remembers that maybe your family left an extra key under the Doormat. You look under and see an extra key for your house and you take it&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-41"/>
-      <child nodeId="node-44"/>
     </children>
   </item>
   <item nodeId="node-41">
-    <command xml:space="preserve">use key</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -507,8 +359,8 @@
     </children>
   </item>
   <item nodeId="node-42">
-    <command xml:space="preserve">use House key in Main door</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -516,24 +368,26 @@
     </children>
   </item>
   <item nodeId="node-43">
-    <command xml:space="preserve">open Main door with House key</command>
-    <result xml:space="preserve">You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
   </item>
   <item nodeId="node-44">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-45"/>
-      <child nodeId="node-50"/>
     </children>
   </item>
   <item nodeId="node-45">
-    <command xml:space="preserve">enter </command>
-    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Home Office&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -541,8 +395,8 @@
     </children>
   </item>
   <item nodeId="node-46">
-    <command xml:space="preserve">get out</command>
-    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Doormat here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -550,8 +404,8 @@
     </children>
   </item>
   <item nodeId="node-47">
-    <command xml:space="preserve">enter main door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;Use your key&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -559,8 +413,8 @@
     </children>
   </item>
   <item nodeId="node-48">
-    <command xml:space="preserve">enter main door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;Use your key&#x000A;&gt;</result>
+    <command xml:space="preserve">go westr</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -568,14 +422,17 @@
     </children>
   </item>
   <item nodeId="node-49">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;Use your key&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
   </item>
   <item nodeId="node-50">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -583,8 +440,8 @@
     </children>
   </item>
   <item nodeId="node-51">
-    <command xml:space="preserve">kiss your daughter</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look noodles</command>
+    <result xml:space="preserve">Some Monica Gang's tomato flavored noodles made by you with love&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -592,50 +449,57 @@
     </children>
   </item>
   <item nodeId="node-52">
-    <command xml:space="preserve">kiss Your daughter</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-53">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take Monica Gang's Tomato Flavored Noodles</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-54"/>
-      <child nodeId="node-55"/>
-      <child nodeId="node-68"/>
-      <child nodeId="node-73"/>
+      <child nodeId="node-53"/>
     </children>
   </item>
-  <item nodeId="node-54">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;You see your daughter standing in the middle of the Hall&#x000A;&gt;</result>
+  <item nodeId="node-53">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Monica Gang's Tomato Flavored Noodles&#x000A;  House key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">look under doormat</command>
+    <result xml:space="preserve">You remembers that maybe your family left an extra key under the Doormat. You look under and see an extra key for your house and you take it&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+      <child nodeId="node-91"/>
+      <child nodeId="node-97"/>
+      <child nodeId="node-127"/>
+      <child nodeId="node-233"/>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
   <item nodeId="node-55">
-    <command xml:space="preserve">enter</command>
-    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">This is the extra key for your house, now you can enter&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-56"/>
+      <child nodeId="node-69"/>
     </children>
   </item>
   <item nodeId="node-56">
-    <command xml:space="preserve">get out</command>
-    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Doormat here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-57"/>
+      <child nodeId="node-60"/>
     </children>
   </item>
   <item nodeId="node-57">
-    <command xml:space="preserve">enter main door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door and your daugther here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">use key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -643,7 +507,7 @@
     </children>
   </item>
   <item nodeId="node-58">
-    <command xml:space="preserve">talk</command>
+    <command xml:space="preserve">use House key in Main door</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -652,26 +516,24 @@
     </children>
   </item>
   <item nodeId="node-59">
-    <command xml:space="preserve">talk with your daugther</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open Main door with House key</command>
+    <result xml:space="preserve">You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-60"/>
-    </children>
   </item>
   <item nodeId="node-60">
-    <command xml:space="preserve">look your daugther</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-61"/>
+      <child nodeId="node-66"/>
     </children>
   </item>
   <item nodeId="node-61">
-    <command xml:space="preserve">talk to your daughter</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter </command>
+    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -679,8 +541,8 @@
     </children>
   </item>
   <item nodeId="node-62">
-    <command xml:space="preserve">ask your daugther about the sun</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get out</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Doormat here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -688,8 +550,8 @@
     </children>
   </item>
   <item nodeId="node-63">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">(House key)&#x000A;You see nothing special about House key.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter main door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;Use your key&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -697,8 +559,8 @@
     </children>
   </item>
   <item nodeId="node-64">
-    <command xml:space="preserve">examine Hall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter main door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;Use your key&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -706,17 +568,14 @@
     </children>
   </item>
   <item nodeId="node-65">
-    <command xml:space="preserve">talk to your daughter</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;Use your key&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-66"/>
-    </children>
   </item>
   <item nodeId="node-66">
-    <command xml:space="preserve">talk to</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -724,41 +583,41 @@
     </children>
   </item>
   <item nodeId="node-67">
-    <command xml:space="preserve">ask about</command>
+    <command xml:space="preserve">kiss your daughter</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">kiss Your daughter</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-68">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-69"/>
-    </children>
-  </item>
   <item nodeId="node-69">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-70"/>
+      <child nodeId="node-71"/>
+      <child nodeId="node-84"/>
+      <child nodeId="node-89"/>
     </children>
   </item>
   <item nodeId="node-70">
-    <command xml:space="preserve">talk to sophia</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;You see your daughter standing in the middle of the Hall&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-71"/>
-    </children>
   </item>
   <item nodeId="node-71">
-    <command xml:space="preserve">ask sophia </command>
-    <result xml:space="preserve">(for House key)&#x000A;(Sophia first taking House key)&#x000A;Sophia has better things to do.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -766,14 +625,17 @@
     </children>
   </item>
   <item nodeId="node-72">
-    <command xml:space="preserve">ask sophia about zapzap</command>
-    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get out</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Doormat here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
   </item>
   <item nodeId="node-73">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter main door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door and your daugther here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -781,14 +643,17 @@
     </children>
   </item>
   <item nodeId="node-74">
-    <command xml:space="preserve">talk to sophia</command>
-    <result xml:space="preserve">"Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!" you say.  "I know, dad, and i can help you, but it's not gonna be easy.." she says.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
   </item>
   <item nodeId="node-75">
-    <command xml:space="preserve">get key</command>
-    <result xml:space="preserve">This is the extra key for your house, now you can enter&#x000A;&gt;</result>
+    <command xml:space="preserve">talk with your daugther</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -796,8 +661,8 @@
     </children>
   </item>
   <item nodeId="node-76">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look your daugther</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -805,8 +670,8 @@
     </children>
   </item>
   <item nodeId="node-77">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk to your daughter</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -814,8 +679,8 @@
     </children>
   </item>
   <item nodeId="node-78">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">Hall&#x000A;Your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask your daugther about the sun</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -823,8 +688,8 @@
     </children>
   </item>
   <item nodeId="node-79">
-    <command xml:space="preserve">look Filha</command>
-    <result xml:space="preserve">She is looking in a funny way to you, kind of suspect.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(House key)&#x000A;You see nothing special about House key.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -832,14 +697,276 @@
     </children>
   </item>
   <item nodeId="node-80">
+    <command xml:space="preserve">examine Hall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">talk to your daughter</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">talk to</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">ask about</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">talk to sophia</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">ask sophia </command>
+    <result xml:space="preserve">(for House key)&#x000A;(Sophia first taking House key)&#x000A;Sophia has better things to do.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">ask sophia about zapzap</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">talk to sophia</command>
+    <result xml:space="preserve">"Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!" you say.  "I know, dad, and i can help you, but it's not gonna be easy.." she says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">This is the extra key for your house, now you can enter&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">Hall&#x000A;Your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">look Filha</command>
+    <result xml:space="preserve">She is looking in a funny way to you, kind of suspect.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
     <command xml:space="preserve">kiss Filha</command>
     <result xml:space="preserve">Filha might not like that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-111">
+  <item nodeId="node-97">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:&#x000A;  House key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">talk to sophia</command>
+    <result xml:space="preserve">"Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!" you say.  "I know, dad, and i can help you, but it's not gonna be easy.." she replies.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(House key)&#x000A;You see nothing special about House key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">climb stair</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">climb Stairs</command>
+    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">look north</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">climb stairs</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see Bookcase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">look bookcase</command>
+    <result xml:space="preserve">A bookcase with a lot of books, making it quite heavy, being impossible to move.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -847,18 +974,14 @@
     </children>
   </item>
   <item nodeId="node-112">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-113"/>
-      <child nodeId="node-153"/>
-    </children>
   </item>
   <item nodeId="node-113">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"> enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -866,8 +989,8 @@
     </children>
   </item>
   <item nodeId="node-114">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -875,8 +998,8 @@
     </children>
   </item>
   <item nodeId="node-115">
-    <command xml:space="preserve">talk to sophia</command>
-    <result xml:space="preserve">"Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!" you say.  "I know, dad, and i can help you, but it's not gonna be easy.." she replies.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine bookcas</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -884,8 +1007,8 @@
     </children>
   </item>
   <item nodeId="node-116">
-    <command xml:space="preserve">examine room</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look the Bookcase</command>
+    <result xml:space="preserve">A bookcase with a lot of books, making it quite heavy, being impossible to move.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -893,8 +1016,8 @@
     </children>
   </item>
   <item nodeId="node-117">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">(House key)&#x000A;You see nothing special about House key.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look bookcase</command>
+    <result xml:space="preserve">A bookcase with a lot of books, making it quite heavy, being impossible to move.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -902,8 +1025,8 @@
     </children>
   </item>
   <item nodeId="node-118">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under</command>
+    <result xml:space="preserve">(House key)&#x000A;You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -911,8 +1034,8 @@
     </children>
   </item>
   <item nodeId="node-119">
-    <command xml:space="preserve">climb stair</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You see a note and try to get with your hands, but it's too far, you will need something to help you reach.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -920,8 +1043,8 @@
     </children>
   </item>
   <item nodeId="node-120">
-    <command xml:space="preserve">climb Stairs</command>
-    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look broom</command>
+    <result xml:space="preserve">A broom used to clean the room ground. Or to reach things&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -929,8 +1052,8 @@
     </children>
   </item>
   <item nodeId="node-121">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take broom</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -938,8 +1061,8 @@
     </children>
   </item>
   <item nodeId="node-122">
-    <command xml:space="preserve">look north</command>
-    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -947,8 +1070,8 @@
     </children>
   </item>
   <item nodeId="node-123">
-    <command xml:space="preserve">climb stairs</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -956,8 +1079,8 @@
     </children>
   </item>
   <item nodeId="node-124">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Living Room&#x000A;You can see Bookcase here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">read first note</command>
+    <result xml:space="preserve">Good job dad, now the next step is:&#x000A;Make some noodles to me, but before, wash your hands in the lavabo, then make the noodles and bring then to me&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -965,8 +1088,8 @@
     </children>
   </item>
   <item nodeId="node-125">
-    <command xml:space="preserve">look bookcase</command>
-    <result xml:space="preserve">A bookcase with a lot of books, making it quite heavy, being impossible to move.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -974,129 +1097,6 @@
     </children>
   </item>
   <item nodeId="node-126">
-    <command xml:space="preserve">look under bookcase</command>
-    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-153">
-    <command xml:space="preserve"> enter door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-154"/>
-    </children>
-  </item>
-  <item nodeId="node-154">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-155"/>
-    </children>
-  </item>
-  <item nodeId="node-155">
-    <command xml:space="preserve">examine bookcas</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-156"/>
-    </children>
-  </item>
-  <item nodeId="node-156">
-    <command xml:space="preserve">look the Bookcase</command>
-    <result xml:space="preserve">A bookcase with a lot of books, making it quite heavy, being impossible to move.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-157"/>
-    </children>
-  </item>
-  <item nodeId="node-157">
-    <command xml:space="preserve">look bookcase</command>
-    <result xml:space="preserve">A bookcase with a lot of books, making it quite heavy, being impossible to move.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-158"/>
-    </children>
-  </item>
-  <item nodeId="node-158">
-    <command xml:space="preserve">look under</command>
-    <result xml:space="preserve">(House key)&#x000A;You find nothing of interest.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-159"/>
-    </children>
-  </item>
-  <item nodeId="node-159">
-    <command xml:space="preserve">look under bookcase</command>
-    <result xml:space="preserve">You see a note and try to get with your hands, but it's too far, you will need something to help you reach.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-160"/>
-    </children>
-  </item>
-  <item nodeId="node-160">
-    <command xml:space="preserve">look broom</command>
-    <result xml:space="preserve">A broom used to clean the room ground. Or to reach things&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-161"/>
-    </children>
-  </item>
-  <item nodeId="node-161">
-    <command xml:space="preserve">take broom</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-162"/>
-    </children>
-  </item>
-  <item nodeId="node-162">
-    <command xml:space="preserve">look under bookcase</command>
-    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-163"/>
-    </children>
-  </item>
-  <item nodeId="node-163">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-164"/>
-    </children>
-  </item>
-  <item nodeId="node-164">
-    <command xml:space="preserve">read first note</command>
-    <result xml:space="preserve">Good job dad, now the next step is:&#x000A;Make some noodles to me, but before, wash your hands in the lavabo, then make the noodles and bring then to me&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-165"/>
-    </children>
-  </item>
-  <item nodeId="node-165">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-166"/>
-    </children>
-  </item>
-  <item nodeId="node-166">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">Kitchen&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1109,8 +1109,8 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-128"/>
-      <child nodeId="node-136"/>
-      <child nodeId="node-183"/>
+      <child nodeId="node-152"/>
+      <child nodeId="node-159"/>
     </children>
   </item>
   <item nodeId="node-128">
@@ -1120,7 +1120,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-129"/>
-      <child nodeId="node-193"/>
+      <child nodeId="node-136"/>
     </children>
   </item>
   <item nodeId="node-129">
@@ -1183,150 +1183,9 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-193">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-194"/>
-    </children>
-  </item>
-  <item nodeId="node-194">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-195"/>
-    </children>
-  </item>
-  <item nodeId="node-195">
-    <command xml:space="preserve">take broom</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-196"/>
-    </children>
-  </item>
-  <item nodeId="node-196">
-    <command xml:space="preserve">look under bookcase</command>
-    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-197"/>
-    </children>
-  </item>
-  <item nodeId="node-197">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-198"/>
-    </children>
-  </item>
-  <item nodeId="node-198">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) and Cooker here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-199"/>
-    </children>
-  </item>
-  <item nodeId="node-199">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-200"/>
-    </children>
-  </item>
-  <item nodeId="node-200">
-    <command xml:space="preserve">take noodles</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-201"/>
-    </children>
-  </item>
-  <item nodeId="node-201">
-    <command xml:space="preserve">cook noodles</command>
-    <result xml:space="preserve">You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait for 3 minutes&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-202"/>
-    </children>
-  </item>
-  <item nodeId="node-202">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  Cooked Noodles&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-203"/>
-    </children>
-  </item>
-  <item nodeId="node-203">
-    <command xml:space="preserve">cook noodles</command>
-    <result xml:space="preserve">You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait for 3 minutes&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-204"/>
-    </children>
-  </item>
-  <item nodeId="node-204">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-205"/>
-    </children>
-  </item>
-  <item nodeId="node-205">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-206"/>
-    </children>
-  </item>
-  <item nodeId="node-206">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-207"/>
-    </children>
-  </item>
-  <item nodeId="node-207">
-    <command xml:space="preserve">give noodles to sophia</command>
-    <result xml:space="preserve">Sophia doesn't seem interested.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-208"/>
-    </children>
-  </item>
-  <item nodeId="node-208">
-    <command xml:space="preserve">read note</command>
-    <result xml:space="preserve">You see some writings in the note: "Good job dad, now the next step is:&#x000A;Make some noodles to me, but before, wash your hands in the lavabo, then make the noodles and bring then to me"&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-136">
-    <command xml:space="preserve">open doork</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1334,8 +1193,8 @@
     </children>
   </item>
   <item nodeId="node-137">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1343,8 +1202,8 @@
     </children>
   </item>
   <item nodeId="node-138">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take broom</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1352,8 +1211,8 @@
     </children>
   </item>
   <item nodeId="node-139">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1361,8 +1220,8 @@
     </children>
   </item>
   <item nodeId="node-140">
-    <command xml:space="preserve">take broom</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1370,8 +1229,8 @@
     </children>
   </item>
   <item nodeId="node-141">
-    <command xml:space="preserve">use broom under the bookcase</command>
-    <result xml:space="preserve">You can't do this.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) and Cooker here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1379,24 +1238,380 @@
     </children>
   </item>
   <item nodeId="node-142">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">take noodles</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">cook noodles</command>
+    <result xml:space="preserve">You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait for 3 minutes&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Cooked Noodles&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">cook noodles</command>
+    <result xml:space="preserve">You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait for 3 minutes&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">give noodles to sophia</command>
+    <result xml:space="preserve">Sophia doesn't seem interested.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">You see some writings in the note: "Good job dad, now the next step is:&#x000A;Make some noodles to me, but before, wash your hands in the lavabo, then make the noodles and bring then to me"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">open doork</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">take broom</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">use broom under the bookcase</command>
+    <result xml:space="preserve">You can't do this.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
     <command xml:space="preserve">use broom under bookcase</command>
     <result xml:space="preserve">You can't do this.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-183">
+  <item nodeId="node-159">
     <command xml:space="preserve">enter door</command>
     <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
+      <child nodeId="node-160"/>
+      <child nodeId="node-202"/>
+      <child nodeId="node-290"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">take broom</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">take noodles</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">cook</command>
+    <result xml:space="preserve">What do you want to cook?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">cook noodles</command>
+    <result xml:space="preserve">You don't have time to cook anymore.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">look note</command>
+    <result xml:space="preserve">You see some writings in the note:&#x000A;"Good job dad, now the next step is:&#x000A;Make some noodles to me, but before, wash your hands in the lavabo, then make the noodles and bring then to me"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) and Cooker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">take noodles</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">cook</command>
+    <result xml:space="preserve">What do you want to cook?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">cook noodles</command>
+    <result xml:space="preserve">You need to wash your hands before cooking&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Home Office&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">wash hands</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Lavabo&#x000A;Your house's lavabo. There is a small cabinet under the sink used to keep toilet paper.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">wash hands</command>
+    <result xml:space="preserve">You wash your hands the way you learned to prevent Coronavirus.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
       <child nodeId="node-184"/>
-      <child nodeId="node-225"/>
     </children>
   </item>
   <item nodeId="node-184">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wash hands</command>
+    <result xml:space="preserve">You already washed your hands.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1404,8 +1619,8 @@
     </children>
   </item>
   <item nodeId="node-185">
-    <command xml:space="preserve">take broom</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1413,13 +1628,12 @@
     </children>
   </item>
   <item nodeId="node-186">
-    <command xml:space="preserve">look under bookcase</command>
-    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-187"/>
-      <child nodeId="node-230"/>
     </children>
   </item>
   <item nodeId="node-187">
@@ -1433,7 +1647,7 @@
   </item>
   <item nodeId="node-188">
     <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (empty) and Cooker here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1441,8 +1655,8 @@
     </children>
   </item>
   <item nodeId="node-189">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">cook noodles</command>
+    <result xml:space="preserve">You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait a little to put the flavor inside, then wait a bit more for the noodles to be ready.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1450,8 +1664,8 @@
     </children>
   </item>
   <item nodeId="node-190">
-    <command xml:space="preserve">take noodles</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Cooked Noodles&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1459,8 +1673,8 @@
     </children>
   </item>
   <item nodeId="node-191">
-    <command xml:space="preserve">cook</command>
-    <result xml:space="preserve">What do you want to cook?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1468,667 +1682,155 @@
     </children>
   </item>
   <item nodeId="node-192">
-    <command xml:space="preserve">cook noodles</command>
-    <result xml:space="preserve">You don't have time to cook anymore.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-230">
-    <command xml:space="preserve">look note</command>
-    <result xml:space="preserve">You see some writings in the note:&#x000A;"Good job dad, now the next step is:&#x000A;Make some noodles to me, but before, wash your hands in the lavabo, then make the noodles and bring then to me"&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-231"/>
-    </children>
-  </item>
-  <item nodeId="node-231">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-232"/>
-    </children>
-  </item>
-  <item nodeId="node-232">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) and Cooker here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-233"/>
-    </children>
-  </item>
-  <item nodeId="node-233">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-234"/>
-    </children>
-  </item>
-  <item nodeId="node-234">
-    <command xml:space="preserve">take noodles</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-235"/>
-    </children>
-  </item>
-  <item nodeId="node-235">
-    <command xml:space="preserve">cook</command>
-    <result xml:space="preserve">What do you want to cook?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-236"/>
-    </children>
-  </item>
-  <item nodeId="node-236">
-    <command xml:space="preserve">cook noodles</command>
-    <result xml:space="preserve">You need to wash your hands before cooking&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-237"/>
-    </children>
-  </item>
-  <item nodeId="node-237">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-238"/>
-    </children>
-  </item>
-  <item nodeId="node-238">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-239"/>
+      <child nodeId="node-193"/>
     </children>
   </item>
-  <item nodeId="node-239">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Home Office&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-240"/>
-    </children>
-  </item>
-  <item nodeId="node-240">
-    <command xml:space="preserve">wash hands</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-241"/>
-    </children>
-  </item>
-  <item nodeId="node-241">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-242"/>
-    </children>
-  </item>
-  <item nodeId="node-242">
+  <item nodeId="node-193">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-243"/>
+      <child nodeId="node-194"/>
     </children>
   </item>
-  <item nodeId="node-243">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Lavabo&#x000A;Your house's lavabo. There is a small cabinet under the sink used to keep toilet paper.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-244"/>
-    </children>
-  </item>
-  <item nodeId="node-244">
-    <command xml:space="preserve">wash hands</command>
-    <result xml:space="preserve">You wash your hands the way you learned to prevent Coronavirus.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-245"/>
-    </children>
-  </item>
-  <item nodeId="node-245">
-    <command xml:space="preserve">wash hands</command>
-    <result xml:space="preserve">You already washed your hands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-246"/>
-    </children>
-  </item>
-  <item nodeId="node-246">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-247"/>
-    </children>
-  </item>
-  <item nodeId="node-247">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-248"/>
-    </children>
-  </item>
-  <item nodeId="node-248">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-249"/>
-    </children>
-  </item>
-  <item nodeId="node-249">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (empty) and Cooker here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-250"/>
-    </children>
-  </item>
-  <item nodeId="node-250">
-    <command xml:space="preserve">cook noodles</command>
-    <result xml:space="preserve">You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait a little to put the flavor inside, then wait a bit more for the noodles to be ready.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-251"/>
-    </children>
-  </item>
-  <item nodeId="node-251">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  Cooked Noodles&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-252"/>
-    </children>
-  </item>
-  <item nodeId="node-252">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-253"/>
-    </children>
-  </item>
-  <item nodeId="node-253">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-254"/>
-    </children>
-  </item>
-  <item nodeId="node-254">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-255"/>
-    </children>
-  </item>
-  <item nodeId="node-255">
+  <item nodeId="node-194">
     <command xml:space="preserve">give noodles to sophia</command>
     <result xml:space="preserve">Sophia doesn't seem interested.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-256"/>
+      <child nodeId="node-195"/>
     </children>
   </item>
-  <item nodeId="node-256">
+  <item nodeId="node-195">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:&#x000A;  Cooked Noodles&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-257"/>
+      <child nodeId="node-196"/>
     </children>
   </item>
-  <item nodeId="node-257">
+  <item nodeId="node-196">
     <command xml:space="preserve">give noodles to sophia</command>
     <result xml:space="preserve">Sophia doesn't seem interested.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-258"/>
+      <child nodeId="node-197"/>
     </children>
   </item>
-  <item nodeId="node-258">
+  <item nodeId="node-197">
     <command xml:space="preserve">give Cooked Noodles to Sophia</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-259"/>
+      <child nodeId="node-198"/>
     </children>
   </item>
-  <item nodeId="node-259">
+  <item nodeId="node-198">
     <command xml:space="preserve">give cooked to sophia</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-260"/>
+      <child nodeId="node-199"/>
     </children>
   </item>
-  <item nodeId="node-260">
+  <item nodeId="node-199">
     <command xml:space="preserve">look cooked noodles</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-261"/>
+      <child nodeId="node-200"/>
     </children>
   </item>
-  <item nodeId="node-261">
+  <item nodeId="node-200">
     <command xml:space="preserve">look noodles</command>
     <result xml:space="preserve">You see nothing special about Cooked Noodles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-262"/>
+      <child nodeId="node-201"/>
     </children>
   </item>
-  <item nodeId="node-262">
+  <item nodeId="node-201">
     <command xml:space="preserve">look Monica Gang's Tomato Flavored Noodles</command>
     <result xml:space="preserve">You see nothing special about Cooked Noodles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-225">
+  <item nodeId="node-202">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">Lavabo&#x000A;Your house's lavabo. There is a small cabinet under the sink used to keep toilet paper.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-226"/>
+      <child nodeId="node-203"/>
     </children>
   </item>
-  <item nodeId="node-226">
+  <item nodeId="node-203">
     <command xml:space="preserve">wash hands</command>
     <result xml:space="preserve">You wash your hands the way you learned to prevent Coronavirus.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-227"/>
-      <child nodeId="node-228"/>
-      <child nodeId="node-263"/>
+      <child nodeId="node-204"/>
+      <child nodeId="node-205"/>
+      <child nodeId="node-207"/>
     </children>
   </item>
-  <item nodeId="node-227">
+  <item nodeId="node-204">
     <command xml:space="preserve">wash</command>
     <result xml:space="preserve">You wash your hands the way you learned to prevent Coronavirus.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-228">
+  <item nodeId="node-205">
     <command xml:space="preserve">wash hands</command>
     <result xml:space="preserve">You already washed your hands.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-229"/>
+      <child nodeId="node-206"/>
     </children>
   </item>
-  <item nodeId="node-229">
+  <item nodeId="node-206">
     <command xml:space="preserve">wash hands</command>
     <result xml:space="preserve">You already washed your hands.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-263">
+  <item nodeId="node-207">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-264"/>
+      <child nodeId="node-208"/>
+      <child nodeId="node-289"/>
     </children>
   </item>
-  <item nodeId="node-264">
+  <item nodeId="node-208">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-265"/>
+      <child nodeId="node-209"/>
     </children>
-  </item>
-  <item nodeId="node-265">
-    <command xml:space="preserve">take broom</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-266"/>
-    </children>
-  </item>
-  <item nodeId="node-266">
-    <command xml:space="preserve">look under bookcase</command>
-    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-267"/>
-    </children>
-  </item>
-  <item nodeId="node-267">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-268"/>
-    </children>
-  </item>
-  <item nodeId="node-268">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-269"/>
-    </children>
-  </item>
-  <item nodeId="node-269">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) and Cooker here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-270"/>
-    </children>
-  </item>
-  <item nodeId="node-270">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-271"/>
-    </children>
-  </item>
-  <item nodeId="node-271">
-    <command xml:space="preserve">take noodles</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-272"/>
-    </children>
-  </item>
-  <item nodeId="node-272">
-    <command xml:space="preserve">cook noodles</command>
-    <result xml:space="preserve">You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait a little to put the flavor inside, then wait a bit more for the noodles to be ready.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-273"/>
-    </children>
-  </item>
-  <item nodeId="node-273">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  Cooked Noodles&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-274"/>
-    </children>
-  </item>
-  <item nodeId="node-274">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-275"/>
-    </children>
-  </item>
-  <item nodeId="node-275">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-276"/>
-    </children>
-  </item>
-  <item nodeId="node-276">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-277"/>
-    </children>
-  </item>
-  <item nodeId="node-277">
-    <command xml:space="preserve">give noodles to sophia</command>
-    <result xml:space="preserve">Thanks, dad.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-278"/>
-    </children>
-  </item>
-  <item nodeId="node-278">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-279"/>
-    </children>
-  </item>
-  <item nodeId="node-279">
-    <command xml:space="preserve">look sophia inventory</command>
-    <result xml:space="preserve">I only understood you as far as wanting to look Sophia.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-280"/>
-    </children>
-  </item>
-  <item nodeId="node-280">
-    <command xml:space="preserve">climb stairs</command>
-    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-281"/>
-    </children>
-  </item>
-  <item nodeId="node-281">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Small Bedroom&#x000A;Your youngest son's bedroom.&#x000A;&#x000A;Your son Bob, basically a baby, is in the room.&#x000A;&#x000A;You can also see Guest's Bed here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-282"/>
-    </children>
-  </item>
-  <item nodeId="node-282">
-    <command xml:space="preserve">look bob</command>
-    <result xml:space="preserve">You see nothing special about Bob.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-283"/>
-    </children>
-  </item>
-  <item nodeId="node-283">
-    <command xml:space="preserve">examine bob</command>
-    <result xml:space="preserve">You see nothing special about Bob.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-284"/>
-    </children>
-  </item>
-  <item nodeId="node-284">
-    <command xml:space="preserve">clear Small Bedroom</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-285"/>
-    </children>
-  </item>
-  <item nodeId="node-285">
-    <command xml:space="preserve">clear bedroom</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-286"/>
-    </children>
-  </item>
-  <item nodeId="node-286">
-    <command xml:space="preserve">clean bedroom</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-287"/>
-    </children>
-  </item>
-  <item nodeId="node-287">
-    <command xml:space="preserve">sweep bedroom</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-288"/>
-    </children>
-  </item>
-  <item nodeId="node-288">
-    <command xml:space="preserve">sweep</command>
-    <result xml:space="preserve">What do you want to sweep?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-143">
-    <command xml:space="preserve">unlock door, open door and enter door</command>
-    <result xml:space="preserve">You can't use multiple objects with that verb.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-144"/>
-    </children>
-  </item>
-  <item nodeId="node-144">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-145"/>
-    </children>
-  </item>
-  <item nodeId="node-145">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-146"/>
-    </children>
-  </item>
-  <item nodeId="node-146">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-147"/>
-    </children>
-  </item>
-  <item nodeId="node-147">
-    <command xml:space="preserve">look under bookcase</command>
-    <result xml:space="preserve">You see a note and try to get with your hands, but it's too far, you will need something to help you reach.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-148"/>
-    </children>
-  </item>
-  <item nodeId="node-148">
-    <command xml:space="preserve">take broom</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-149"/>
-    </children>
-  </item>
-  <item nodeId="node-149">
-    <command xml:space="preserve">look under bookcase</command>
-    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-150"/>
-    </children>
-  </item>
-  <item nodeId="node-150">
-    <command xml:space="preserve">look under bookcase</command>
-    <result xml:space="preserve">There's nothing more there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-151"/>
-    </children>
-  </item>
-  <item nodeId="node-151">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-152"/>
-    </children>
-  </item>
-  <item nodeId="node-152">
-    <command xml:space="preserve">read first note</command>
-    <result xml:space="preserve">You see nothing special about First Note.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-209">
-    <command xml:space="preserve">unlock doormat</command>
-    <result xml:space="preserve">(with House key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take broom</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2136,8 +1838,8 @@
     </children>
   </item>
   <item nodeId="node-210">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2145,8 +1847,8 @@
     </children>
   </item>
   <item nodeId="node-211">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2155,7 +1857,7 @@
   </item>
   <item nodeId="node-212">
     <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2163,8 +1865,8 @@
     </children>
   </item>
   <item nodeId="node-213">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Lavabo&#x000A;Your house's lavabo. There is a small cabinet under the sink used to keep toilet paper.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) and Cooker here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2172,8 +1874,8 @@
     </children>
   </item>
   <item nodeId="node-214">
-    <command xml:space="preserve">inspect</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2181,8 +1883,8 @@
     </children>
   </item>
   <item nodeId="node-215">
-    <command xml:space="preserve">inspect east</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take noodles</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2190,8 +1892,8 @@
     </children>
   </item>
   <item nodeId="node-216">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">(House key)&#x000A;You see nothing special about House key.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">cook noodles</command>
+    <result xml:space="preserve">You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait a little to put the flavor inside, then wait a bit more for the noodles to be ready.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2199,8 +1901,8 @@
     </children>
   </item>
   <item nodeId="node-217">
-    <command xml:space="preserve">examine east</command>
-    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Cooked Noodles&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2208,8 +1910,8 @@
     </children>
   </item>
   <item nodeId="node-218">
-    <command xml:space="preserve">examine west</command>
-    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2217,8 +1919,8 @@
     </children>
   </item>
   <item nodeId="node-219">
-    <command xml:space="preserve">wash hands</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2226,8 +1928,8 @@
     </children>
   </item>
   <item nodeId="node-220">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">(House key)&#x000A;You see nothing special about House key.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2235,8 +1937,8 @@
     </children>
   </item>
   <item nodeId="node-221">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Lavabo&#x000A;Your house's lavabo. There is a small cabinet under the sink used to keep toilet paper.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">give noodles to sophia</command>
+    <result xml:space="preserve">Thanks, dad.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2244,8 +1946,8 @@
     </children>
   </item>
   <item nodeId="node-222">
-    <command xml:space="preserve">look west</command>
-    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2253,8 +1955,8 @@
     </children>
   </item>
   <item nodeId="node-223">
-    <command xml:space="preserve">wash key</command>
-    <result xml:space="preserve">You wash your hands the way you learned to prevent Coronavirus.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look sophia inventory</command>
+    <result xml:space="preserve">I only understood you as far as wanting to look Sophia.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2262,264 +1964,1026 @@
     </children>
   </item>
   <item nodeId="node-224">
+    <command xml:space="preserve">climb stairs</command>
+    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Small Bedroom&#x000A;Your youngest son's bedroom.&#x000A;&#x000A;Your son Bob, basically a baby, is in the room.&#x000A;&#x000A;You can also see Guest's Bed here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">look bob</command>
+    <result xml:space="preserve">You see nothing special about Bob.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">examine bob</command>
+    <result xml:space="preserve">You see nothing special about Bob.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">clear Small Bedroom</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">clear bedroom</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">clean bedroom</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">sweep bedroom</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">sweep</command>
+    <result xml:space="preserve">What do you want to sweep?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-289">
+    <command xml:space="preserve">talk to sophia</command>
+    <result xml:space="preserve">"Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!" you say.&#x000A; "I know, dad, and i can help you, but it's not gonna be easy." she replies.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-290">
+    <command xml:space="preserve">talk to sophia</command>
+    <result xml:space="preserve">"Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!" you say.&#x000A; "I know, dad, and i can help you, but it's not gonna be easy." she replies then continues:&#x000A;"Before anything, i want you to make some tasks to me, the first one you will find in the Living Room"&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-291"/>
+    </children>
+  </item>
+  <item nodeId="node-291">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-292"/>
+    </children>
+  </item>
+  <item nodeId="node-292">
+    <command xml:space="preserve">look to bookcase</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-293"/>
+    </children>
+  </item>
+  <item nodeId="node-293">
+    <command xml:space="preserve">look bookcase</command>
+    <result xml:space="preserve">A bookcase with a lot of books, making it quite heavy, being impossible to move.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-294"/>
+    </children>
+  </item>
+  <item nodeId="node-294">
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You see a note and try to get with your hands, but it's too far, you will need something to help you reach.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-295"/>
+    </children>
+  </item>
+  <item nodeId="node-295">
+    <command xml:space="preserve">take broom</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-296"/>
+    </children>
+  </item>
+  <item nodeId="node-296">
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-297"/>
+    </children>
+  </item>
+  <item nodeId="node-297">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">You see some writings in the note:&#x000A;"Good job dad, now the next step is:&#x000A;Make some noodles to me, but before, wash your hands in the lavabo, then make the noodles and bring then to me"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-298"/>
+    </children>
+  </item>
+  <item nodeId="node-298">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-299"/>
+    </children>
+  </item>
+  <item nodeId="node-299">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (closed) and Cooker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-300"/>
+    </children>
+  </item>
+  <item nodeId="node-300">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Kitchen drawer, revealing Monica Gang's Tomato Flavored Noodles and Bird food.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-301"/>
+    </children>
+  </item>
+  <item nodeId="node-301">
+    <command xml:space="preserve">take noodles</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-302"/>
+    </children>
+  </item>
+  <item nodeId="node-302">
+    <command xml:space="preserve">look bird food</command>
+    <result xml:space="preserve">Used to feed Blond Joseph&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-303"/>
+    </children>
+  </item>
+  <item nodeId="node-303">
+    <command xml:space="preserve">cook noodles</command>
+    <result xml:space="preserve">You need to wash your hands before cooking&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-304"/>
+    </children>
+  </item>
+  <item nodeId="node-304">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-305"/>
+    </children>
+  </item>
+  <item nodeId="node-305">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-306"/>
+    </children>
+  </item>
+  <item nodeId="node-306">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-307"/>
+    </children>
+  </item>
+  <item nodeId="node-307">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Lavabo&#x000A;Your house's lavabo. There is a small cabinet under the sink used to keep toilet paper.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-308"/>
+    </children>
+  </item>
+  <item nodeId="node-308">
+    <command xml:space="preserve">wash hands</command>
+    <result xml:space="preserve">You wash your hands the way you learned to prevent Coronavirus.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-309"/>
+    </children>
+  </item>
+  <item nodeId="node-309">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-310"/>
+    </children>
+  </item>
+  <item nodeId="node-310">
+    <command xml:space="preserve"> go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-311"/>
+    </children>
+  </item>
+  <item nodeId="node-311">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-312"/>
+    </children>
+  </item>
+  <item nodeId="node-312">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (in which is Bird food) and Cooker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-313"/>
+    </children>
+  </item>
+  <item nodeId="node-313">
+    <command xml:space="preserve">cook noodles</command>
+    <result xml:space="preserve">You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait a little to put the flavor inside, then wait a bit more for the noodles to be ready.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-314"/>
+    </children>
+  </item>
+  <item nodeId="node-314">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Cooked Noodles&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-315"/>
+    </children>
+  </item>
+  <item nodeId="node-315">
+    <command xml:space="preserve">look noodles</command>
+    <result xml:space="preserve">The best noodles in the whole world.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-316"/>
+    </children>
+  </item>
+  <item nodeId="node-316">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-317"/>
+    </children>
+  </item>
+  <item nodeId="node-317">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-318"/>
+    </children>
+  </item>
+  <item nodeId="node-318">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-319"/>
+    </children>
+  </item>
+  <item nodeId="node-319">
+    <command xml:space="preserve">give noodle to sophia</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-320"/>
+    </children>
+  </item>
+  <item nodeId="node-320">
+    <command xml:space="preserve">give noodles to sophia</command>
+    <result xml:space="preserve">Thanks, dad.&#x000A;Now, to your next task, i will need you to sweep the bedroom's floor and to clean the bathroom's.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-321"/>
+    </children>
+  </item>
+  <item nodeId="node-321">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-322"/>
+    </children>
+  </item>
+  <item nodeId="node-322">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-323"/>
+    </children>
+  </item>
+  <item nodeId="node-323">
+    <command xml:space="preserve">o west</command>
+    <result xml:space="preserve">Sorry, that can't be corrected.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-324"/>
+    </children>
+  </item>
+  <item nodeId="node-324">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Kitchen drawer (in which is Bird food) and Cooker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-325"/>
+    </children>
+  </item>
+  <item nodeId="node-325">
+    <command xml:space="preserve">take bird food</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-326"/>
+    </children>
+  </item>
+  <item nodeId="node-326">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-327"/>
+    </children>
+  </item>
+  <item nodeId="node-327">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-328"/>
+    </children>
+  </item>
+  <item nodeId="node-328">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-329"/>
+    </children>
+  </item>
+  <item nodeId="node-329">
+    <command xml:space="preserve">talk to sophia</command>
+    <result xml:space="preserve">Sophia doesn't reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-330"/>
+    </children>
+  </item>
+  <item nodeId="node-330">
+    <command xml:space="preserve">climb staris</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-331"/>
+    </children>
+  </item>
+  <item nodeId="node-331">
+    <command xml:space="preserve">climb stairs</command>
+    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-332"/>
+    </children>
+  </item>
+  <item nodeId="node-332">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Small Bedroom&#x000A;Your youngest son's bedroom.&#x000A;&#x000A;Blond Joseph is in the room, in a stand, screaming extremely loud.&#x000A;&#x000A;You can also see Guest's Bed here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-333"/>
+    </children>
+  </item>
+  <item nodeId="node-333">
+    <command xml:space="preserve">look joseph</command>
+    <result xml:space="preserve">He is a parrot, something looks like it's coming out from his back, maybe an arm.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-334"/>
+    </children>
+  </item>
+  <item nodeId="node-334">
+    <command xml:space="preserve">talk to joseph</command>
+    <result xml:space="preserve">He is screaming: "Where is Any Mary?!?! Where she is???"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-335"/>
+    </children>
+  </item>
+  <item nodeId="node-335">
+    <command xml:space="preserve">talk to joseph</command>
+    <result xml:space="preserve">You can't talk to him anymore, he is too angry with something, you need to calm him down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-336"/>
+    </children>
+  </item>
+  <item nodeId="node-336">
+    <command xml:space="preserve">sweep floor</command>
+    <result xml:space="preserve">Blond Joseph is still screaming and it's disturbing you, if you dont calm down him, you will not be able to clean the floor&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-337"/>
+    </children>
+  </item>
+  <item nodeId="node-337">
+    <command xml:space="preserve">give food to joseph</command>
+    <result xml:space="preserve">He eats and calm down, now you can clean the floor&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-338"/>
+    </children>
+  </item>
+  <item nodeId="node-338">
+    <command xml:space="preserve">talk to joseph</command>
+    <result xml:space="preserve">You can't talk to him anymore, he is too angry with something, you need to calm him down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-339"/>
+    </children>
+  </item>
+  <item nodeId="node-339">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-340"/>
+    </children>
+  </item>
+  <item nodeId="node-340">
+    <command xml:space="preserve">sweep floor</command>
+    <result xml:space="preserve">Blond Joseph is still screaming and it's disturbing you, if you dont calm down him, you will not be able to clean the floor&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">unlock door, open door and enter door</command>
+    <result xml:space="preserve">You can't use multiple objects with that verb.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Living Room&#x000A;The old bookcase is there too.&#x000A;&#x000A;A broom is leaning on a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You see a note and try to get with your hands, but it's too far, you will need something to help you reach.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">take broom</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You use the broom to reach and get the note&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">There's nothing more there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  First Note&#x000A;  Broom&#x000A;  House key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">read first note</command>
+    <result xml:space="preserve">You see nothing special about First Note.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">unlock doormat</command>
+    <result xml:space="preserve">(with House key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Lavabo&#x000A;Your house's lavabo. There is a small cabinet under the sink used to keep toilet paper.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">inspect</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">inspect east</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(House key)&#x000A;You see nothing special about House key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">examine east</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">examine west</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">wash hands</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(House key)&#x000A;You see nothing special about House key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lavabo&#x000A;Your house's lavabo. There is a small cabinet under the sink used to keep toilet paper.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">look west</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">wash key</command>
+    <result xml:space="preserve">You wash your hands the way you learned to prevent Coronavirus.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
     <command xml:space="preserve">wash key</command>
     <result xml:space="preserve">You wash your hands the way you learned to prevent Coronavirus.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-81">
+  <item nodeId="node-259">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">The door is closed and you don't remeber where your keys are.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-82"/>
+      <child nodeId="node-260"/>
     </children>
   </item>
-  <item nodeId="node-82">
+  <item nodeId="node-260">
     <command xml:space="preserve">examine doormat</command>
     <result xml:space="preserve">A Doormat used to clean the shoe's sole. Sometimes people hide keys under them.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-83"/>
+      <child nodeId="node-261"/>
     </children>
   </item>
-  <item nodeId="node-83">
+  <item nodeId="node-261">
     <command xml:space="preserve">look under doormat</command>
     <result xml:space="preserve">You see the Doormat and remembers that maybe your family left an extra key. You look under the Doormat and see an extra key for your house and now you can take it&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-84"/>
+      <child nodeId="node-262"/>
     </children>
   </item>
-  <item nodeId="node-84">
+  <item nodeId="node-262">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">This is the extra key for your house, now you can enter&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-85"/>
+      <child nodeId="node-263"/>
     </children>
   </item>
-  <item nodeId="node-85">
+  <item nodeId="node-263">
     <command xml:space="preserve">open door with key</command>
     <result xml:space="preserve">You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-86"/>
+      <child nodeId="node-264"/>
     </children>
   </item>
-  <item nodeId="node-86">
+  <item nodeId="node-264">
     <command xml:space="preserve">enter door</command>
     <result xml:space="preserve">(first opening Main door)&#x000A;Use your key&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-87">
+  <item nodeId="node-265">
     <command xml:space="preserve">look under the doormat</command>
     <result xml:space="preserve">You remembers that maybe your family left an extra key under the Doormat. You look under and see an extra key for your house and now you can take it&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-88"/>
+      <child nodeId="node-266"/>
     </children>
   </item>
-  <item nodeId="node-88">
+  <item nodeId="node-266">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">This is the extra key for your house, now you can enter&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-89"/>
+      <child nodeId="node-267"/>
     </children>
   </item>
-  <item nodeId="node-89">
+  <item nodeId="node-267">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-90"/>
+      <child nodeId="node-268"/>
     </children>
   </item>
-  <item nodeId="node-90">
+  <item nodeId="node-268">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-91"/>
+      <child nodeId="node-269"/>
     </children>
   </item>
-  <item nodeId="node-91">
+  <item nodeId="node-269">
     <command xml:space="preserve">enter door</command>
     <result xml:space="preserve">Hall&#x000A;Your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-92"/>
+      <child nodeId="node-270"/>
     </children>
   </item>
-  <item nodeId="node-92">
+  <item nodeId="node-270">
     <command xml:space="preserve">kiss your daughter</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-93"/>
+      <child nodeId="node-271"/>
     </children>
   </item>
-  <item nodeId="node-93">
+  <item nodeId="node-271">
     <command xml:space="preserve">look your daughter</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-94">
+  <item nodeId="node-272">
     <command xml:space="preserve">examine doormat</command>
     <result xml:space="preserve">A Doormat is used to clean the shoe's sole. Sometimes people hide keys under them.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-95"/>
+      <child nodeId="node-273"/>
     </children>
   </item>
-  <item nodeId="node-95">
+  <item nodeId="node-273">
     <command xml:space="preserve">look under doormat</command>
     <result xml:space="preserve">You remembers that maybe your family left an extra key under the Doormat. You look under and see an extra key for your house and now you can take it&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-96"/>
+      <child nodeId="node-274"/>
     </children>
   </item>
-  <item nodeId="node-96">
+  <item nodeId="node-274">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">This is the extra key for your house, now you can enter&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-97"/>
+      <child nodeId="node-275"/>
     </children>
   </item>
-  <item nodeId="node-97">
+  <item nodeId="node-275">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-98"/>
+      <child nodeId="node-276"/>
     </children>
   </item>
-  <item nodeId="node-98">
+  <item nodeId="node-276">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-99"/>
+      <child nodeId="node-277"/>
     </children>
   </item>
-  <item nodeId="node-99">
+  <item nodeId="node-277">
     <command xml:space="preserve">enter door</command>
     <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-100">
+  <item nodeId="node-278">
     <command xml:space="preserve">enter chair</command>
     <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-101"/>
+      <child nodeId="node-279"/>
     </children>
   </item>
-  <item nodeId="node-101">
+  <item nodeId="node-279">
     <command xml:space="preserve">get out</command>
     <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Doormat here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-102"/>
+      <child nodeId="node-280"/>
     </children>
   </item>
-  <item nodeId="node-102">
+  <item nodeId="node-280">
     <command xml:space="preserve">sit chair</command>
     <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-103"/>
+      <child nodeId="node-281"/>
     </children>
   </item>
-  <item nodeId="node-103">
+  <item nodeId="node-281">
     <command xml:space="preserve">sit on chair</command>
     <result xml:space="preserve">You feel confortable&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-104"/>
+      <child nodeId="node-282"/>
     </children>
   </item>
-  <item nodeId="node-104">
+  <item nodeId="node-282">
     <command xml:space="preserve">get out</command>
     <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Doormat here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-105"/>
+      <child nodeId="node-283"/>
     </children>
   </item>
-  <item nodeId="node-105">
+  <item nodeId="node-283">
     <command xml:space="preserve">look under doormat</command>
     <result xml:space="preserve">You remembers that maybe your family left an extra key under the Doormat. You look under and see an extra key for your house and now you can take it&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-106"/>
+      <child nodeId="node-284"/>
     </children>
   </item>
-  <item nodeId="node-106">
+  <item nodeId="node-284">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">This is the extra key for your house, now you can enter&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-107"/>
+      <child nodeId="node-285"/>
     </children>
   </item>
-  <item nodeId="node-107">
+  <item nodeId="node-285">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">(with House key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-108"/>
+      <child nodeId="node-286"/>
     </children>
   </item>
-  <item nodeId="node-108">
+  <item nodeId="node-286">
     <command xml:space="preserve">enter door</command>
     <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;Sophia, your daughter is standing in the middle of the hall.&#x000A;&#x000A;You can also see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-109"/>
+      <child nodeId="node-287"/>
     </children>
   </item>
-  <item nodeId="node-109">
+  <item nodeId="node-287">
     <command xml:space="preserve">ask sophia about zap</command>
     <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-110"/>
+      <child nodeId="node-288"/>
     </children>
   </item>
-  <item nodeId="node-110">
+  <item nodeId="node-288">
     <command xml:space="preserve">talk to sophia</command>
     <result xml:space="preserve">"Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!" you say.  "I know, dad, and i can help you, but it's not gonna be easy.." she replies.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
