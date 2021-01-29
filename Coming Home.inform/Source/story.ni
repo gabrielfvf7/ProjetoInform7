@@ -120,7 +120,7 @@ Check an actor cooking on:
 						say "You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait a little to put the flavor inside, then wait a bit more for the noodles to be ready.";
 						now the printed name of the Monica Gang's Tomato Flavored Noodles is "Cooked Noodles";
 						now the player carries the Monica Gang's Tomato Flavored Noodles;
-						now NoodleIsCooked is false;
+						now NoodleIsCooked is true;
 			otherwise:
 				say "You need to wash your hands before cooking";
 

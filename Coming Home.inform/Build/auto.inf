@@ -20486,8 +20486,8 @@ Array ActionHappened --> 0 0 0 0 0 0;
                         BlkValueCopy(GProperty(10, I154_monica_gang_s_tomato_fl,short_name), TX_L_100);
                         ! [12: now the player carries the monica gang's tomato flavored noodles]
                         MoveObject(I154_monica_gang_s_tomato_fl,player);
-                        ! [13: now noodleiscooked is false]
-                        (Global_Vars-->11) = 0;
+                        ! [13: now noodleiscooked is true]
+                        (Global_Vars-->11) = 1;
                         }
                         }
                         } else {
