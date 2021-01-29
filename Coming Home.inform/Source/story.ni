@@ -43,12 +43,73 @@ Understand "talk to [someone]" or "converse with [someone]" as talking to.
 Check talking to: say "[The noun] doesn't reply."
 Instead of talking to Sophia:
 	Say "'Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!' you say.[line break] 'I know, dad, and i can help you, but it's not gonna be easy.' she replies." 
+	
+Instead of talking to Blond Joseph the first time:
+	say "He is screaming: 'Where is Any Mary?!?! Where she is???'"
+	
+Instead of talking to Blond Joseph:
+	say "You can't talk to him anymore, he is too angry with something, you need to calm him down."
 
 Section 1.4 Interactions
+
+Sweeping floor is an action applying to nothing.
+Understand "sweep floor" as sweeping floor.
+Understand "sweep" as sweeping floor.
+
+Check an actor sweeping floor:
+	if the player is in the Small Bedroom:
+		if the player carries the Broom:
+			if BlondJosephFed is true:
+				if SmallBedroomIsCleaned is false:
+					say "You sweep the room's floor, now it's shining.";
+					now SmallBedroomIsCleaned is true;
+				otherwise:
+					say "The floor is already cleaned, don't need to do again.";
+			otherwise:
+				say "Blond Joseph is still screaming and it's disturbing you, if you dont calm down him, you will not be able to clean the floor";
+		otherwise:
+			say "You need something to clean, you can't clean with your bare hands";
+	otherwise:
+		say "You don't have anything to clean here";
+		
+Instead of giving Bird food to Blond Joseph:
+	say "He eats and calm down, now you can clean the floor";
+	now Blond Joseph carries Bird food
+
+Washing hands is an action applying to nothing.
+Understand "wash hands" as washing hands.
+
+Check an actor washing hands:
+	if the player is in the Lavabo:
+		if WashedHands is false:
+			say "You wash your hands the way you learned to prevent Coronavirus.";
+			now WashedHands is true;
+		otherwise:
+			say "You already washed your hands."
+
+Cooking on is an action applying to one thing.
+Understand "cook [something]" as cooking on.
+
+Check an actor cooking on:
+	if the player is in the Kitchen:
+		if NoodleIsCooked is true:
+			say "You don't have time to cook anymore.";
+		otherwise:
+			if WashedHands is true:
+				if the player carries the First Note:
+					if the player carries the Monica Gang's Tomato Flavored Noodles:
+						say "You take a pot, fill with water and light on the cooker. With the noodles pack in your hands, you put everything, except the flavor powder, inside the pot then wait a little to put the flavor inside, then wait a bit more for the noodles to be ready.";
+						now the printed name of the Monica Gang's Tomato Flavored Noodles is "Cooked Noodles";
+						now the player carries the Monica Gang's Tomato Flavored Noodles;
+						now NoodleIsCooked is false;
+			otherwise:
+				say "You need to wash your hands before cooking";
 
 Investigating on is an action applying to one thing.
 
 Understand "investigate [something]" as investigating on.
+
+Understand "Cooked Noodles" as Monica Gang's Tomato Flavored Noodles.
 
 Check an actor investigating on a Old Drawer:
 	if OldDrawerHandleIsMissing is true, say "It's lacking a handle, I can't open it without one." instead;
@@ -56,10 +117,20 @@ Check an actor investigating on a Old Drawer:
 		say "You opened the drawer. There's a safe box inside it. You need a code to open it.";
 		now Drawer Handle is nowhere;
 		now Safe Box is in Basement.
+		
+Instead of giving Monica Gang's Tomato Flavored Noodles to Sophia:
+	say "Thanks, dad.";
+	now Sophia carries Monica Gang's Tomato Flavored Noodles.
 
 Section 1.5 Variables
 
 OldDrawerHandleIsMissing is a truth state that varies. OldDrawerHandleIsMissing is true.
+NoodleIsCooked is a truth state that varies. NoodleIsCooked is false.
+WashedHands is a truth state that varies. WashedHands is false.
+BlondJosephFed is a truth state that varies. BlondJosephFed is false.
+LargeBedroomIsCleaned is a truth state that varies. LargeBedroomIsCleaned is false.
+MediumBedroomIsCleaned is a truth state that varies. MediumBedroomIsCleaned is false.
+SmallBedroomIsCleaned is a truth state that varies. SmallBedroomIsCleaned is false.
 
 Chapter 2 Geography
 
@@ -68,7 +139,7 @@ Section 2.1 The House
 Porch is a room.  
 Hall is room.  
 Sophia is a woman in the Hall. "Sophia, your daughter is standing in the middle of the hall." The description is "She is looking in a funny way to, kind of suspect."
-Bob is a man. Bob is in the Small Bedroom. "Your son Bob, basically a baby, is in the room."
+Blond Joseph is an animal. Blond Joseph is in the Small Bedroom. "Blond Joseph is in the room, in a stand, screaming extremely loud." The description is "He is a parrot, something looks like it's coming out from his back, maybe an arm."
 
 Main door is a door. It is north of Porch and south of Hall. Main door is closed and locked.
 The matching key of the Main door is House key.
@@ -105,7 +176,14 @@ Chapter 3 Things
 
 Player is in Porch.  
 
-First Note is a thing. First Note can be found. First Note is not found.
+First Note is a thing. First Note can be found. First Note is not found. The description is "You see some writings in the note:[line break]'Good job dad, now the next step is:[line break]Make some noodles to me, but before, wash your hands in the lavabo, then make the noodles and bring then to me'"
+
+Kitchen drawer is an openable container. Kitchen drawer is closed. Kitchen drawer is in the Kitchen.
+Cooker is a thing in Kitchen.
+
+Monica Gang's Tomato Flavored Noodles is a thing. Monica Gang's Tomato Flavored Noodles is in the Kitchen drawer.  The description is "The best noodles in the whole world.".
+
+ Bird food is a thing in the Kitchen drawer. The description is "Used to feed Blond Joseph".
 
 Old Drawer is in Basement. It is fixed in place. The description of Old Drawer is "An old drawer that's barely used, just gathering dust.".
 There is a Safe Box. Safe Box is an openable container. Safe Box is closed and locked.
