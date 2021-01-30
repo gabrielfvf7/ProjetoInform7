@@ -264,7 +264,12 @@ Figure of InitialPicture is the file "house.jpg"
 When play begins:
 	Display the Figure of InitialPicture ;
 	Say "The Guanabara Aniversary starts in hours, but your wife hid your car's key, because you are addicted to Guanabara sales. Now you are in the porch of your house thinking about what to do. Maybe first you want to enter in the house."
-	
 
-	
+
+
+Definition: a direction (called thataway) is viable if the room 
+thataway from the location is a room.
+After looking:
+	say "You can go [list of viable directions] from here."
+
 	
