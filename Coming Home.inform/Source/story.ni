@@ -27,7 +27,11 @@ Check an actor sitting on a thing:
   If the noun is not enterable, say "You can't sit on [the noun]" instead.
 
 Check an actor entering a thing:
+<<<<<<< HEAD
   If the thing is occupied, say "You can't sit in an occupied chair" instead;
+=======
+	If the thing is occupied, say "You can't sit in an occupied chair" instead;
+>>>>>>> f98f71eba36154bfca8e05a46e39587422029119
 
 Carry out sitting on a chair:
   silently try entering the noun.
@@ -43,11 +47,19 @@ Understand "talk to [someone]" or "converse with [someone]" as talking to.
 Check talking to: say "[The noun] doesn't reply."
 
 Instead of talking to Sophia the first time:
+<<<<<<< HEAD
   Say "'Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!' you say.[line break] 'I know, dad, and I can help you, but it's not gonna be easy.' she replies then continues:[line break]'Before anything, I want you to make some tasks to me, the first one you will find in the Living Room'"; 
   
 Instead of talking to Blond Joseph the first time:
   say "He is screaming: 'Where is Anne Mary?!?! Where is she???'"
   
+=======
+	Say "'Hey Sophia, i need your help! I need to go to Guanabara, in few hours the Guanabara anniversary will start!' you say.[line break] 'I know, dad, and I can help you, but it's not gonna be easy.' she replies then continues:[line break]'Before anything, I want you to make some tasks to me, the first one you will find in the Living Room'"; 
+	
+Instead of talking to Blond Joseph the first time:
+	say "He is screaming: 'Where is Any Mary?!?! Where is she???'"
+	
+>>>>>>> f98f71eba36154bfca8e05a46e39587422029119
 Instead of talking to Blond Joseph:
 	if BlondJosephFed is true:
 		say "He doesn't want to talk, but at least he's calm.";
@@ -92,6 +104,7 @@ Check an actor sweeping floor:
 					say "The floor is already clean, don't need to do again.";
 			otherwise:
 				say "Blond Joseph is still screaming and it's disturbing you, if you dont calm down him, you will not be able to clean the floor";
+<<<<<<< HEAD
 		otherwise if the player is in the Medium Bedroom:
 			if MediumBedroomIsCleaned is false:
 				say "You sweep the room's floor, now it's shining.";
@@ -106,6 +119,24 @@ Check an actor sweeping floor:
 				say "The floor is already clean, don't need to do again.";
 		otherwise:
 			say "You don't have anything to clean here";
+=======
+		otherwise:
+			if the player is in the Medium Bedroom:
+				if MediumBedroomIsCleaned is false:
+					say "You sweep the room's floor, now it's shining.";
+					now MediumBedroomIsCleaned is true;
+				otherwise:
+					say "The floor is already clean, don't need to do again.";
+			otherwise:
+				if the player is in the Large Bedroom:
+					if LargeBedroomIsCleaned is false:
+						say "You sweep the room's floor, now it's shining.";
+						now LargeBedroomIsCleaned is true;
+					otherwise:
+						say "The floor is already clean, don't need to do again.";
+				otherwise:
+					say "You don't have anything to clean here";
+>>>>>>> f98f71eba36154bfca8e05a46e39587422029119
 	otherwise:
 		say "You need to have something to clean, you can't clean with your bare hands"
 	
@@ -136,9 +167,15 @@ Check an actor cleaning:
 		say "Nothing to clean here.";
 	
 Instead of giving Bird food to Blond Joseph:
+<<<<<<< HEAD
 	  say "He eats and calms down, now you can clean the floor";
 	  now Blond Joseph carries Bird food;
 	  now BlondJosephFed is true;
+=======
+	say "He eats and calms down, now you can clean the floor";
+	now Blond Joseph carries Bird food;
+	now BlondJosephFed is true;
+>>>>>>> f98f71eba36154bfca8e05a46e39587422029119
 
 Washing hands is an action applying to nothing.
 Understand "wash hands" as washing hands.
@@ -346,4 +383,10 @@ When play begins:
 Definition: a direction (called thataway) is viable if the room 
 thataway from the location is a room.
 After looking:
+<<<<<<< HEAD
 	say "You can go [list of viable directions] from here."
+=======
+	say "You can go [list of viable directions] from here."
+
+	
+>>>>>>> f98f71eba36154bfca8e05a46e39587422029119
