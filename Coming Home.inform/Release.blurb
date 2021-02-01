@@ -1,21 +1,21 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\joao\Documents\GitHub\ProjetoInform7\Coming Home.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "D:\UFRJ\Eletivas\Projeto de Jogos\Trab 2 - Ficção Iterativa\ProjetoInform7\Coming Home.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\joao\Documents\GitHub\ProjetoInform7\Coming Home.inform"
-release to "C:\Users\joao\Documents\GitHub\ProjetoInform7\Coming Home.materials\Release"
+project folder "D:\UFRJ\Eletivas\Projeto de Jogos\Trab 2 - Ficção Iterativa\ProjetoInform7\Coming Home.inform"
+release to "D:\UFRJ\Eletivas\Projeto de Jogos\Trab 2 - Ficção Iterativa\ProjetoInform7\Coming Home.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "The need for Guanabara.gblorb"
-storyfile "C:\Users\joao\Documents\GitHub\ProjetoInform7\Coming Home.inform\Build\output.ulx" include
-ifiction "C:\Users\joao\Documents\GitHub\ProjetoInform7\Coming Home.inform\Metadata.iFiction" include
+storyfile "D:\UFRJ\Eletivas\Projeto de Jogos\Trab 2 - Ficção Iterativa\ProjetoInform7\Coming Home.inform\Build\output.ulx" include
+ifiction "D:\UFRJ\Eletivas\Projeto de Jogos\Trab 2 - Ficção Iterativa\ProjetoInform7\Coming Home.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
-picture 3 "C:\Users\joao\Documents\GitHub\ProjetoInform7\Coming Home.materials\Figures\house.jpg"
+picture 3 "D:\UFRJ\Eletivas\Projeto de Jogos\Trab 2 - Ficção Iterativa\ProjetoInform7\Coming Home.materials\Figures\house.jpg"
 
 ! Placeholder variables
 
