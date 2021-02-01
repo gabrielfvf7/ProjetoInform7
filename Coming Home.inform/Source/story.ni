@@ -61,7 +61,7 @@ Instead of talking to Sophia:
 				if LargeBedroomIsCleaned is true:
 					if BathroomIsCleaned is true:
 						if InnerBathroomIsCleaned is true:
-							say "Alright, you took care of the house, now you can grab you car keys. It's inside the old drawer  we have in the basement. But I hid the handle under the guest's bed, in the small bedroom.";
+							say "Alright, you took care of the house, now you can grab you car keys. It's inside the old drawer we have in the basement. But I hid the handle under the guest's bed, in the small bedroom.";
 						otherwise:
 							say "You still have some cleaning to do.";
 					otherwise:
